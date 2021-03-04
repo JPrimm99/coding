@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/script.js"></script>
+        <link rel ="stylesheet" href ="style.css">
+    </head>
+    <body>
+        <div id ="start"> READY? SET? GO!!!!!!!!</div>
+        <button onclick="revealMessage()">Click Here!!!</button>
+        <p id="hiddenMessage" style= "display:none">Are you ready?</p>
+        <button id="countDownButton" onclick= "countDown()">5</button>
+        <div id= "quiz" style = "display: none;">
+        <div id ="qImage"><img src="img.png"></div>
+        <div id="question"><p>Question</p></div>
+        <div id= "timmer">
+            <div id="counter">5</div>
+            <div id ="btimeGauge"></div>
+            <div id="timeGuage"></div>
+        </div> 
+        <div id="choices">
+            <div class ="choices" id= "A" onclick="checkAnswer(A)">A</div>
+            <div class="choices" id="B" onclick="checkAnswer(B)">B</div>
+            <div class="choices" id = "C" onclick="checkAnswer(C)">B</div>
+            <div class="choices" id="D" onclick ="checkAnswer(D)">D</div>
+        </div>
+    <div id="progress"><div class="prog"></div>
+    <div id="scoreContainer" style="display:none;">
+        <img scr ="smile.png"><p>50%</p>
+    </div>
+    <script src="quiz.js"></script>
+    </body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
